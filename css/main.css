@@ -19,10 +19,5 @@ a {
 .logo-img {
     width: 100px;
     height: 100px;
-    margin-right: 10px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+ 
 }
