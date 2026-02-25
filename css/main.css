@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.logo-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
