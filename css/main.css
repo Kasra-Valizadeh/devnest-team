@@ -1,23 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
 }
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Regular.ttf') format('truetype');
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Nas";
+  src: url("../fonts/nas.ttf") format("truetype");
 }
 body {
-    background-color: #f4f4f4;
-    color: #333;
-    font-family: 'Oswald', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-transform: capitalize;
 }
+
 a {
-    color: #333;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  height: 550px;
+  background-image: url("../img/bg-index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+  padding-top: 35px;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 .logo-img {
-    width: 100px;
-    height: 100px;
- 
+  width: 100px;
+  height: 100px;
+    border-radius: 50%;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.title {
+  font-family: "Nas", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.title span {
+  font-family:"Nas", sans-serif;
+  color: #5d22e6;
 }
